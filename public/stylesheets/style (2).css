@@ -1,0 +1,16 @@
+.form-body {
+  padding: 1.5em 2em;
+}
+
+@media(max-width:900px){
+
+.form-body {
+  padding: 1.5em;
+}
+}
+@media(max-width:320px){
+
+.form-body {
+  padding: 1em;
+}
+}

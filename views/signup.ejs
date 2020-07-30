@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sign Up</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Sign Up">
+
+	<link href="stylesheets/style1.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="main">
+		<div class="main-w3l">
+			<h1 class="logo-w3">Sign Up</h1>
+			<div class="w3layouts-main">
+					<form method="post" enctype="multipart/form-data">
+						<input placeholder="Full Name" name="name" type="text" required="">
+						<input placeholder="Email ID" name="email" type="email" required="">
+						<input placeholder="Contact Number" name="phone" type="text" required="">
+						<input placeholder="Password" name="password" type="password"  id="password" required="">
+						
+						<div class="upload">
+							<button class="btn">Upload Image</button>
+							<input type="file" name="filename"  required>
+						</div><br><br>
+						<input type="submit" value="Sign Up" name="signup">
+
+						<label class="or"> OR </label>
+
+						<button class="facebook"><i class="fa fa-facebook fa-fw">
+						</i> Facebook</button>
+
+						<button class="twitter"><i class="fa fa-twitter fa-fw">
+						</i> Twitter</button>
+
+						<button class="google"><i class="fa fa-google fa-fw">
+						</i> Google+</button><br><br>
+						<p>Already have an account? <a href="/login"> Login Now!</a></p>
+					  </div>
+					  
+					</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
